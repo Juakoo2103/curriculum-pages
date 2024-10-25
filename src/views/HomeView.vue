@@ -1,9 +1,14 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<template>
+  <h1>esta es una pagina de prueba</h1>
+</template>
+
+<script>
+export default {
+  name: "HomeView",
+  data() {
+    return {};
+  },
+};
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped></style>
