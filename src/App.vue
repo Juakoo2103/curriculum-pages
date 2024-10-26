@@ -26,7 +26,7 @@ import Footer from "@/components/Footer.vue";
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 0;
 }
 
 footer {
