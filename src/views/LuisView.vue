@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container profile-container">
     <header class="my-4 d-flex align-items-start">
       <img
         src="../assets/img/foto.png"
@@ -11,9 +11,17 @@
       <div>
         <h1 class="mb-3">Luis Suarez</h1>
         <p class="mb-1">Av. Independencia 1050</p>
-        <p>suarrezluis.ea@gmail.com - +56 930539942</p>
+        <p>suarezluis.ea@gmail.com - +56 930539942</p>
       </div>
     </header>
+    <section class="experience my-4 p-3 rounded">
+      <h2>Experiencia Profesional</h2>
+      <p>
+        Con 15 años de experiencia como cocinero, he trabajado en diversos
+        restaurantes y cocinas, especializándome en técnicas de alta gastronomía
+        y servicio al cliente.
+      </p>
+    </section>
   </div>
 </template>
 
@@ -24,10 +32,22 @@ export default {
 </script>
 
 <style scoped>
+/* Background and overall container styling */
+.profile-container {
+  background-image: url("https://img.freepik.com/vector-premium/coleccion-utensilios-cocina-articulos-cocina_9493-82097.jpg?w=740");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  color: black;
+  font-weight: 700;
+}
+
+/* Header styling */
 h1,
 h2,
 h3 {
-  color: #333;
+  color: black;
 }
 
 .profile-pic {
@@ -35,6 +55,7 @@ h3 {
   border-radius: 50%;
 }
 
+/* Transition effects */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s ease;
@@ -48,5 +69,11 @@ h3 {
 .a-active {
   font-weight: bold;
   color: #0d6efd !important;
+}
+
+/* Experience section styling */
+.experience {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 </style>
