@@ -15,7 +15,7 @@
       </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 rounded">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 rounded">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -76,7 +76,7 @@
       <transition name="fade" mode="out-in">
         <component :is="Component" />
       </transition>
-    </router-view>
+    </router-view> -->
 
     <footer class="text-center my-4 text-muted">
       <p>
