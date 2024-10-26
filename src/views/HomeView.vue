@@ -1,15 +1,14 @@
 <template>
-  <h1>hi</h1>
+  <h1>Pagina principal de los curriculums</h1>
 </template>
 
 <script>
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   data() {
     return {};
-  }
+  },
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
