@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <RouterLink class="nav-link" to="home">Curriculum Pages</RouterLink>
+      <RouterLink class="nav-link" to="/">Curriculum Pages</RouterLink>
       <button
         class="navbar-toggler"
         type="button"

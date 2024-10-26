@@ -1,5 +1,5 @@
 <template>
-  <h1>esta es una pagina de prueba</h1>
+  <h1>Pagina principal de los curriculums</h1>
 </template>
 
 <script>
