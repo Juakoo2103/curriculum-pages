@@ -1,37 +1,40 @@
 import { createRouter, createWebHistory } from "vue-router";
-import CurriculumVitae from "../components/CurriculumVitae.vue";
-
-const routes = [
-  {
-    path: "/",
-    name: "resumen",
-    component: CurriculumVitae,
-  },
-  {
-    path: "/experiencia",
-    name: "experiencia",
-    component: CurriculumVitae,
-  },
-  {
-    path: "/educacion",
-    name: "educacion",
-    component: CurriculumVitae,
-  },
-  {
-    path: "/habilidades",
-    name: "habilidades",
-    component: CurriculumVitae,
-  },
-  {
-    path: "/contacto",
-    name: "contacto",
-    component: CurriculumVitae,
-  },
-];
+import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes,
+  routes: [
+    {
+      path: "/",
+      name: "home",
+      component: HomeView,
+    },
+    {
+      path: "/Joaquin",
+      name: "joaquin",
+      component: () => import("@/views/JoaquinView.vue"),
+    },
+    /* {
+      path: "/Luis",
+      name: "luis",
+      component: () => import("@/views/LuisView.vue"),
+    },
+    {
+      path: "/gaby",
+      name: "gaby",
+      component: () => import("@/views/gabyView.vue"),
+    },
+    {
+      path: "/Jose",
+      name: "jose",
+      component: () => import("@/views/JoseView.vue"),
+    },
+    {
+      path: "/Ignacio",
+      name: "ignacio",
+      component: () => import("@/views/IgnacioView.vue"),
+    }, */
+  ],
 });
 
 export default router;
