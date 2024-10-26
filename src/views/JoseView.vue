@@ -1,5 +1,6 @@
 <template>
   <div class="container-fluid">
+    <!--hero-->
     <section class="container my-3">
       <div class="row align-items-center">
         <div class="col-12 col-md-6">
@@ -12,6 +13,7 @@
         </div>
       </div>
     </section>
+    <!--Habilidades-->
     <section class="container">
     <div class="col-12 my-5 pt-5 skill">
       <h2 class="text-center skill__title">Mis habilidades</h2>
@@ -55,6 +57,7 @@
       </div>
     </div>
     </section>
+    <!--proyectos-->
     <section class="container col-12 my-5 pt-5 projects">
       <h2 class="text-center projects__title">Mis proyectos</h2>
       <div class="row mt-5">
@@ -65,6 +68,22 @@
           </div>
         </div>
       </div>
+    </section>
+    <!--educacion-->
+    <section class="container col-12 my-5 pt-5">
+      <h2 class="text-center education__title">Estudios</h2>
+      <ul class="education__ul">
+        <li class="education__li">Bootcamp - Desarrollo de aplicaciones front-end</li>
+        <li class="education__li">Universidad - Ing. Civil informatica (incompleta) </li>
+        <li class="education__li">Enseñansa Media - TÉCNICO DE NIVEL MEDIO EN MECÁNICA INDUSTRIAL,</li>
+      </ul>
+    </section>
+    <section class="container col-12 my-5 pt-5">
+      <h2 class="text-center exp__title">Experiencia</h2>
+      <ul class="exp__ul">
+        <li class="exp__li">Programador CNC</li>
+        <li class="exp__li">Operario Bodega</li>
+      </ul>
     </section>
   </div>
   
@@ -139,6 +158,28 @@ export default {
   font-weight: 700;
 }
 .projects__subtitle {
+  color: #1D3557;
+}
+.education__title{
+  color: #1D3557;
+  font-weight: 700;
+}
+.education__ul{
+  list-style:circle;
+}
+.education__li{
+  font-size: 1.4rem;
+  color: #1D3557;
+}
+.exp__title{
+  color: #1D3557;
+  font-weight: 700;
+}
+.exp__ul{
+  list-style:circle;
+}
+.exp__li{
+  font-size: 1.4rem;
   color: #1D3557;
 }
 
